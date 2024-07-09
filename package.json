@@ -9,10 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nest start",
-    "start:dev": "nodemon --watch src --exec 'nest start --watch'",
-    "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",

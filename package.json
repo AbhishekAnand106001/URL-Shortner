@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "nodemon": "^3.1.4"
+  },
+  "name": "url-shortner",
+  "description": "Node js Implementation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nodemon --watch src --exec 'nest start --watch'",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhishekAnand106001/URL-Shortner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekAnand106001/URL-Shortner/issues"
+  },
+  "homepage": "https://github.com/AbhishekAnand106001/URL-Shortner#readme"
+}

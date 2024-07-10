@@ -7,7 +7,9 @@ const { connectToMongoDB } = require('./Connect');
 
 const app = express();
 
-const port = 3000;
+const PORT = 3000;
+
+app.use(express.json)
 
 connectToMongoDB("mongodb+srv://abhishekanand106001:root@nodecrud.desgg8s.mongodb.net/?retryWrites=true&w=majority&appName=NodeCRUD", {
     useNewUrlParser: true,
@@ -18,6 +20,6 @@ app.use("/url", urlRoute)
 
 
 
-app.listen(port, ()=>{
-    console.log(`${port} port is running`);
+app.listen(PORT, ()=>{
+    console.log(`${PORT} port is running`);
 })

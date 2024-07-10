@@ -2,7 +2,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.5.0",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "shortid": "^2.2.16"
   },
   "name": "url-shortner",
   "description": "Node js Implementation",
